@@ -1,0 +1,14 @@
+#Ariel
+#Calver
+#ASCII initials
+a = "A"
+space = " "
+c="C"
+
+print(space,space,a,space,space,space,c,c,c)
+print(space,a,space,a,space,c,space,space,space,c)
+print(a,space,space,space,a,c)
+print(a,a,a,a,a,c)
+print(a,space,space,space,a,c)
+print(a,space,space,space,a,c,space,space,space,c)
+print(a,space,space,space,a,space,c,c,c)
