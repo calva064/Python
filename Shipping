@@ -1,0 +1,36 @@
+#Package cost
+#Asks users for weight of package and then tells them which method of shipping is cheapest and how much it will cost to ship their package
+
+#variables
+pkg_weight=4.8
+ground_cost=0
+premium_cost=125
+drone_cost=0
+
+#methods of shipping
+#Ground Shipping
+if pkg_weight<= 2:
+   ground_cost= pkg_weight*1.50+20.00
+elif pkg_weight> 2 and pkg_weight <=6:
+   ground_cost= pkg_weight*3.00+20.00
+elif pkg_weight> 6 and pkg_weight <=10:
+   ground_cost= pkg_weight*4.00+20.00
+else:
+  ground_cost= pkg_weight*4.75+20.00
+
+  #Drone Shipping
+if pkg_weight<= 2:
+   drone_cost= pkg_weight*4.50
+elif pkg_weight> 2 and pkg_weight <=6:
+   drone_cost= pkg_weight*9.00
+elif pkg_weight> 6 and pkg_weight <=10:
+   drone_cost= pkg_weight*12.00
+else:
+  drone_cost= pkg_weight*14.25
+
+
+print("Ground Cost: $",ground_cost)
+print("Premium Cost: $",premium_cost)
+print("Drone Cost: $",drone_cost)
+
+
