@@ -1,5 +1,7 @@
 #Package cost
 #Asks users for weight of package and then tells them which method of shipping is cheapest and how much it will cost to ship their package
+#Ariel Calver
+#5/31/24
 
 #variables
 pkg_weight=4.8
